@@ -20,6 +20,8 @@ public class Pixbitd {
 		setDepth(newdepth);
 		
 	}
+	
+	// Gets and sets
 
 	public int getY() {
 		return y;
