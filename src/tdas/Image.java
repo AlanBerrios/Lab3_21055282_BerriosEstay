@@ -178,6 +178,18 @@ public class Image implements interface_image{
 		}
 	}
 
+	public boolean isCompressed() {
+		int alto = this.getAlto();
+		int ancho = this.getAncho();
+		int area = alto * ancho;
+		if(this.listapixeles.size()<area) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+
 	
 	
 	

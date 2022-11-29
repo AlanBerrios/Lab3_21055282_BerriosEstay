@@ -13,5 +13,5 @@ public interface interface_image {
 	public boolean isBitmap();
 	public boolean isPixmap();
 	public boolean isHexmap();
-
+	public boolean isCompressed();
 }
