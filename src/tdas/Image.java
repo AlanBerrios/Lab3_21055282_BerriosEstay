@@ -190,6 +190,18 @@ public class Image implements interface_image{
 		}
 	}
 
+	public void flipH() {
+		int ancho1 = this.getAncho()-1;
+		List<Pixel> listapixelesH = new ArrayList<>();
+		for(int i = 0; i < this.listapixeles.size(); i++) {
+			
+			this.listapixeles.get(i).setX(String.valueOf
+					(Math.abs(Integer.valueOf(this.listapixeles.get(i).getX())-ancho1)));
+			listapixelesH.add(this.listapixeles.get(i));			
+		}
+		this.listapixeles = listapixelesH;
+	}
+
 	
 	
 	

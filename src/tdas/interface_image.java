@@ -14,4 +14,6 @@ public interface interface_image {
 	public boolean isPixmap();
 	public boolean isHexmap();
 	public boolean isCompressed();
+
+	public void flipH();
 }
