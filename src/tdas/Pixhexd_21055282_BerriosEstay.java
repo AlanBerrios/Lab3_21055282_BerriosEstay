@@ -4,11 +4,17 @@ package tdas;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Pixhexd extends Pixel {
+/**
+ * Clase pixhexd heredada de la clase pixel
+ */
+
+public class Pixhexd_21055282_BerriosEstay extends Pixel_21055282_BerriosEstay {
 	
-	// Constructor 
+	/**
+	 * Metodo constructor de un pixel tipo pixhexd
+	 */
 	
-	public Pixhexd(String y, String x, String hex, String depth)
+	public Pixhexd_21055282_BerriosEstay(String y, String x, String hex, String depth)
 	{
 		this.setY(y);
 		this.setX(x);
@@ -16,6 +22,10 @@ public class Pixhexd extends Pixel {
 		this.setDepth(depth);
 		
 	}
+	
+	/**
+     * Implementacion propia de la clase para el metodo abstracto toLista proveniente de la clase Pixel
+     */
 	
     public List<String> toLista() {
 
@@ -28,7 +38,6 @@ public class Pixhexd extends Pixel {
         return pixhexlist;
 
     }
-	
 	
 
 }

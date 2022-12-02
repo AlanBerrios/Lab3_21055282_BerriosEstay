@@ -3,15 +3,27 @@ package tdas;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Pixbitd extends Pixel {
+/*
+ * Clase pixbitd heredada de la clase pixel
+ */
 
-    public Pixbitd(String y, String x, String bit, String depth){
+public class Pixbitd_21055282_BerriosEstay extends Pixel_21055282_BerriosEstay {
+
+	/**
+	 * Metodo constructor de un pixel tipo pixbitd
+	 */
+	
+    public Pixbitd_21055282_BerriosEstay(String y, String x, String bit, String depth){
 
         this.setY(y);
         this.setX(x);
         this.setBit(bit);
         this.setDepth(depth);
         }
+    
+    /**
+     * Implementacion propia de la clase para el metodo abstracto toLista proveniente de la clase Pixel
+     */
 
     public List<String> toLista() {
 
@@ -24,6 +36,8 @@ public class Pixbitd extends Pixel {
         return pixbitlist;
 
     }
-
+    
+    
 
 }
+    

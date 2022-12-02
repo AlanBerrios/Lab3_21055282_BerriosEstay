@@ -3,20 +3,30 @@ package tdas;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Pixrgbd extends Pixel {
+/**
+ * Clase pixrgbd heredada de la clase pixel
+ */
+
+public class Pixrgbd_21055282_BerriosEstay extends Pixel_21055282_BerriosEstay {
 	
-	// Constructor 
+	/**
+	 * Metodo constructor de un pixel tipo pixrgbd
+	 */
 	
-		public Pixrgbd(String y, String x, String r, String g, String b, String depth)
+		public Pixrgbd_21055282_BerriosEstay(String y, String x, String r, String g, String b, String depth)
 		{
 			this.setY(y);
 	        this.setX(x);
 	        this.setR(r);
-	        this.setG(r);
-	        this.setB(r);
+	        this.setG(g);
+	        this.setB(b);
 	        this.setDepth(depth);
 
 		}
+		
+		/**
+	     * Implementacion propia de la clase para el metodo abstracto toLista proveniente de la clase Pixel
+	     */
 		
 		public List<String> toLista() {
 
