@@ -1,4 +1,4 @@
-package tdas;
+package modelo;
 // Nombre de la clase
 
 import java.util.ArrayList;

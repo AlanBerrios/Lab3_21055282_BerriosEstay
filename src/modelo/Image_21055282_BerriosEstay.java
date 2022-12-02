@@ -1,4 +1,4 @@
-package tdas;
+package modelo;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -171,7 +171,7 @@ public class Image_21055282_BerriosEstay implements interface_image_21055282_Ber
 		int i = 0;
 		int j = 0;
 		while(i < this.listapixeles.size()) {
-			if(this.listapixeles.get(i).getClass().toString().equals("class tdas.Pixbitd_21055282_BerriosEstay")) {
+			if(this.listapixeles.get(i).getClass().toString().equals("class modelo.Pixbitd_21055282_BerriosEstay")) {
 				j++;
 				i++;
 			}
@@ -198,7 +198,7 @@ public class Image_21055282_BerriosEstay implements interface_image_21055282_Ber
 		int i = 0;
 		int j = 0;
 		while(i < this.listapixeles.size()) {
-			if(this.listapixeles.get(i).getClass().toString().equals("class tdas.Pixrgbd_21055282_BerriosEstay")) {
+			if(this.listapixeles.get(i).getClass().toString().equals("class modelo.Pixrgbd_21055282_BerriosEstay")) {
 				j++;
 				i++;
 			}
@@ -225,7 +225,7 @@ public class Image_21055282_BerriosEstay implements interface_image_21055282_Ber
 		int i = 0;
 		int j = 0;
 		while(i < this.listapixeles.size()) {
-			if(this.listapixeles.get(i).getClass().toString().equals("class tdas.Pixhexd_21055282_BerriosEstay")) {
+			if(this.listapixeles.get(i).getClass().toString().equals("class modelo.Pixhexd_21055282_BerriosEstay")) {
 				j++;
 				i++;
 			}
