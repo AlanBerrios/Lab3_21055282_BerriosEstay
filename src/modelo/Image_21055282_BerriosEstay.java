@@ -445,7 +445,7 @@ public class Image_21055282_BerriosEstay implements interface_image_21055282_Ber
 	}
 	
 	/**
-	 * Metodo que voltea una imagen 90 grados hacia la izquierda
+	 * Metodo que voltea una imagen 90 grados hacia la derecha
 	 */
 	
 	public void rotate90() {

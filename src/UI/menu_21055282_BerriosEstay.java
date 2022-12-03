@@ -249,7 +249,7 @@ public class menu_21055282_BerriosEstay{
                    System.out.println("7. Recortar una imagen a partir de un cuadrante");
                    System.out.println("8. Convertir imagen Pixmap a Hexmap");
                    System.out.println("9. Realizar un histograma de la imagen");
-                   System.out.println("10. Rotar una imagen 90 grados hacia la izquierda");
+                   System.out.println("10. Rotar una imagen 90 grados hacia la derecha");
                    System.out.println("11. Comprimir una imagen");
                    System.out.println("12. Reemplazar un pixel en una imagen.");
                    System.out.println("13. Invertir los valores bit de una imagen Bitmap.");
